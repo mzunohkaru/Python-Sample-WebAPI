@@ -27,7 +27,7 @@ def notify_message(message: str):
     print(res.status_code)
 
 
-message = "Line APIを用いた通知のテストです"
+message = "Line API---"
 
 if __name__ == "__main__":
     notify_message(message)
