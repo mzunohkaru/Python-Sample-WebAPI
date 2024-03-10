@@ -1,3 +1,5 @@
 .env
 
 firebase_api/serviceAccountKey.json
+
+sheet_api/secret.json
