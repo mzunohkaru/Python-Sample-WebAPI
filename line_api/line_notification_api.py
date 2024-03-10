@@ -4,7 +4,7 @@ import requests
 
 load_dotenv()
 
-LINE_NOTIFY_TOKEN = os.getenv("LINE_API_KEY")
+LINE_NOTIFY_TOKEN = "ujqN7fhdwSUltY6wENjflSypk8mS1Ukry7u9THdkmD9"
 
 URL = "https://notify-api.line.me/api/notify"
 
