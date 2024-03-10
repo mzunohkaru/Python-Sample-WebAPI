@@ -3,7 +3,10 @@ name: test_line_notify
 
 # 発火タイミング
 on:
+  # Pushした際に実行
   push:
+
+  # 指定した時間に実行 (UTC)
   # schedule:
   #   - cron: '0 22 * * *'
 

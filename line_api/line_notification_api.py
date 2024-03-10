@@ -3,15 +3,15 @@ import os
 import requests
 
 
+load_dotenv()
+
+# LINE_NOTIFY_TOKEN = os.getenv("LINE_API_KEY")
+LINE_NOTIFY_TOKEN = "API KEY"
+
+URL = "https://notify-api.line.me/api/notify"
 
 
 def notify_message(message: str):
-    load_dotenv()
-
-    LINE_NOTIFY_TOKEN = os.getenv("LINE_API_KEY")
-
-    URL = "https://notify-api.line.me/api/notify"
-
     headers = {
         "Authorization": f"Bearer {LINE_NOTIFY_TOKEN}",
         # フォームデータがURLエンコードされた形式で送信されることを設定
