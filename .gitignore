@@ -2,4 +2,4 @@
 
 firebase_api/serviceAccountKey.json
 
-sheet_api/secret.json
+gcp_api/secret.json
